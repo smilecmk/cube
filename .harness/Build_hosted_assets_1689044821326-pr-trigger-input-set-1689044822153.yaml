@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_hosted_assets_1689044821326-pr-trigger-input-set
+  identifier: Build_hosted_assets_1689044821326prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_hosted_assets_1689044821326
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
