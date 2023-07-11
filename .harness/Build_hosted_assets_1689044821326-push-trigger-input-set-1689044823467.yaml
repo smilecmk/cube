@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_hosted_assets_1689044821326-push-trigger-input-set
+  identifier: Build_hosted_assets_1689044821326pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_hosted_assets_1689044821326
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
